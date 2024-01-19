@@ -10,7 +10,7 @@ async function fetchProfile() {
     const userInfoContainer = document.getElementById('userInfo');
     const loadingIndicator = document.getElementById('loadingIndicator');
     const errorMessage = document.getElementById('errorMessage');
-    const accessToken = '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';
+
 
     // Reset previous state
     userInfoContainer.innerHTML = '';
