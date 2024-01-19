@@ -1,7 +1,7 @@
 const perPage = 5; // Number of repositories per page
 let currentPage = 1;
 let repoUrl;
-const accessToken = "your_access_token";
+const accessToken = process.env.accessToken;
 
 
 // Modify your fetchProfile function
